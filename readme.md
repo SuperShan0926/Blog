@@ -1,7 +1,7 @@
 #个人的小垃圾博客
 ##借鉴nswbmw的教程[简单博客](https://github.com/nswbmw/N-blog);
 
-计划使用 bootstrap + jquery 完善前端界面，感觉 ejs 要比 jade 更适应呀～
+计划使用 bootstrap + jquery 完善前端界面，感觉 ejs 要比 jade 更适应～
 
 `node` `express` `mongoDB` `mongoose` `bootstrap` `jquery`
 
