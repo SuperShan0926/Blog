@@ -1,0 +1,183 @@
+body{
+	background-color: #eee;
+}
+
+a{
+	color: black;
+}
+#header{
+	background-color:#0abab5;
+	padding: 1.8em 0 1.5em;
+}
+#header div{
+	width: 93%;
+	margin: 0 auto;
+	overflow: hidden;
+	
+}
+
+#header div #imgLogo{
+	width: 5.5em;
+	float: left;	
+}
+
+
+
+#header #imgLogo a{
+	display: block;
+}
+
+#header div #textLogo{
+	width: 75%;
+	float: left;	
+	margin-left:.5em;
+}
+
+#header #textLogo h1.site-name{
+	width: 86%;
+    font-size: 200%;	
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+}
+
+#header #textLogo h1.site-name a{
+    color: #FFF;
+    font-family: myFirstFont;
+}
+
+@font-face{
+	font-family: myFirstFont;
+	src: url('/CoveredByYourGrace.ttf');
+}
+header #textLogo h1.site-name a:hover{
+	text-decoration: none;
+}
+
+#header #textLogo h2{
+	margin: 0;
+	font-weight: normal;
+	font-size: 110%;
+	line-height: 1.8;
+	color: #FFF;
+}
+
+#header .nav-tabs{
+	float: right;
+	border-bottom: none;
+}
+
+#header .nav-tabs a{
+	color: #FFF;
+	padding: .2em 1.5em;
+	border:none;
+	border-radius: 0;
+	font-size: 1em;
+}
+
+#header .nav-tabs a:hover{
+	color: orange;
+	background: #3A847B;
+
+}
+
+
+
+#header img{
+	width: 5.5em;
+}
+
+footer{
+	width: 100%;
+	background: #0abab5;
+	min-height: 200px;
+}
+
+#footer{
+	width: 95%;
+	margin: 0 auto;
+	padding: 0 2% 0.5em;
+	overflow: hidden;
+}
+
+#footer .line{
+	width: 10em;
+    float: left;
+    position: relative;
+    height: 14em;
+    margin: 0 auto;
+}
+
+#footer span{
+	display: block;
+    width: 0.5em;
+    height: 6.25em;
+    border-right: 0.125em solid #fff;
+    position: absolute;
+    left: 3em;
+}
+
+#footer #info{
+	width: 6.875em;
+	height: 6.875em;
+	background:no-repeat url("/images/logo.png") left top;
+	background-size: 6.875em 6.875em;
+	border-radius: 3.4375em;
+	position: absolute;
+    top: 6em;
+    margin: 0 0 1.5em;
+    -webkit-transition: -webkit-transform 2s ease-out;
+}
+
+#footer #info:hover{
+	-webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    -o-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
+#footer .intro {
+	margin-top: 6em;
+	margin-left: 2em;
+	float: left;
+}
+
+#footer .intro p{
+	font-family: myFirstFont;
+	color: #FFF;
+	font-size: 2em;
+	-webkit-font-smoothing: antialiased;
+}
+
+#footer #duty p{
+	float: left;
+	color: #FFF;
+	width: 100%;
+	text-align: center;
+	font-family: 'myFirstFont';
+	-webkit-font-smoothing: antialiased;
+	word-spacing: 0.8em;
+}
+
+#footer #moto{
+	float: right;
+	padding-top:9.5em;
+	color: #FFF;
+}
+#footer #moto p{
+	font-family: 'HanziPenSC-W3';
+	-webkit-font-smoothing: antialiased;
+	word-spacing: 0.8em;
+}
+
+
+
+
+
+
+
+
+
+
+

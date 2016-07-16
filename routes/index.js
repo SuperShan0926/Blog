@@ -5,6 +5,10 @@ var crypto = require('crypto');
 var markdown = require('markdown').markdown;
 module.exports = function(app) {
 
+	//testonly  ajax
+	app.get('/testonly',function(req, res) {
+		res.end('点的好!');
+	});
 	app.get('/', function(req, res) {
 		post.find(function(err, posts) {
 			if (err) {
@@ -147,7 +151,7 @@ module.exports = function(app) {
 		var currentUser = req.session.user;
 		var date = new Date();
 		var newPost = new post({
-			name: currentUser[0].username,
+			name: currentUser.username,
 			title: req.body.title,
 			post: req.body.post,
 			time : {
@@ -186,6 +190,11 @@ module.exports = function(app) {
 
 				});
 		});
+	});
+
+	//测试界面专用～
+	app.get('/test',function (req,res) {
+		res.render('blogHeader');
 	});
 
 };
